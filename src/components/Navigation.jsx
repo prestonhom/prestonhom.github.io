@@ -38,45 +38,53 @@ const Navigation=()=>{
                             border:'3px white solid',
                         }}/>
                     </Navbar.Brand>
-                    <h1 style={{color:'lightBlue', fontSize:'150%'}}>fullStackDeveloper <span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> : </span><span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> {'{'} </span> 
+                    <h1 style={{color:'lightBlue', fontSize:'150%',}}>fullStackDeveloper <span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> : </span><span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> {'{'} </span> 
                     <br></br> 
-                    <span style={{color:'yellow'}}>&nbsp; &nbsp; &nbsp; &nbsp;<span style={{color:'lightBlue'}}>stack</span><span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> : </span>'MERN'  </span>
+                    <span style={{color:'yellow'}}>&nbsp; &nbsp; &nbsp; &nbsp;<span style={{color:'lightBlue'}}>techStack</span><span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> : </span>'MERN'</span>
                     <br></br>
                     <span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> {'}'} </span> 
                     </h1>
                     <Nav.Link
+                    className='navLinks'
                     href='/'
                     style={{
-                        margin:'14% 0 0 3rem',
-                
+                        margin:'8% 0 0 3%',
                     }}
                     >
                         <img className='navIcons' src={home} alt='home' />
+                        <h1 className='navWords'>Home </h1>
+
                     </Nav.Link>
                     <Nav.Link
+                    className='navLinks'
                     href='/about'
                     style={{
-                        margin:'14% 0 0 3rem'
+                        margin:'8% 0 0 3%'
                     }}
                     >
                        <img className='navIcons' src={user} alt='user' ></img>
+                       <h1 className='navWords'>About</h1>
                     </Nav.Link>
                     <Nav.Link
+                    className='navLinks'
                     href='/projects'
                     style={{
-                        margin:'14% 0 0 3rem'
+                        margin:'8% 0 0 3%'
                     }}
                     >
                         <img className='navIcons' src={flask} alt='flask' ></img>
+                        <h1 className='navWords'>Projects</h1>
                     </Nav.Link>
                     
                     <Nav.Link
+                    className='navLinks'
                     href='/contact'
                     style={{
-                        margin:'14% 0 0 3rem'
+                        margin:'8% 0 0 3%'
                     }}
                     >
                         <img className='navIcons' src={letter} alt='letter' ></img>
+                        <h1 className='navWords'>Contact</h1>
                     </Nav.Link>
                 </Nav>
         </Navbar.Collapse>

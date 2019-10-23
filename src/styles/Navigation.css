@@ -26,13 +26,40 @@
     height:40px;
     fill:white;
 }
-
-.navIcons:hover{
-    width:80px;
-    height:80px;
-    cursor:pointer;
+.navWords {
+    display: none;
+    color:white;
+    
 }
 
-svg{
-    fill:white;
+.navIcons:hover{
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    
+}
+
+
+.navIcons:hover + .navWords{
+    display:inline;
+    text-decoration: none;
+    font-size: 40px;
+    margin:0 20px;
+    -webkit-animation: arrowInOut 4s linear forwards;
+    animation: arrowInOut 4s linear forwards;
+    color:yellow;
+    text-shadow:white 0px 0px 2px;
+   }
+   
+   @-webkit-keyframes arrowInOut {
+    0%,100% {opacity: 0;}
+    30%, 80% {opacity: 1;}
+   }
+   @keyframes arrowInOut {
+    0%,100% {opacity: 0;}
+    30%, 80% {opacity: 1;}
+    }
+
+.navLinks{
+    text-decoration: underline pink;
 }
