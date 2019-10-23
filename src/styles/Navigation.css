@@ -1,0 +1,38 @@
+@keyframes panning {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+      background-position: 100% 100%;
+    }
+     50% {
+      background-position: 100% 0%;
+    }
+    75% {
+      background-position: 0 100%;
+    }
+    200% {
+      background-position: 0 0;
+    }
+  }
+
+.navBar {
+    position: relative;
+    animation: panning 250s infinite linear;
+}
+
+.navIcons{
+    width:40px;
+    height:40px;
+    fill:white;
+}
+
+.navIcons:hover{
+    width:80px;
+    height:80px;
+    cursor:pointer;
+}
+
+svg{
+    fill:white;
+}
