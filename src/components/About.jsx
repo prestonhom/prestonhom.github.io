@@ -1,11 +1,10 @@
 import React from 'react';
-
+import '../styles/About.css'
 
 const About = () =>{
     return(
         <div>
             <section style={{
-            background:'rgb(255,250,250)',
             display:'flex',
             flexDirection:'column',
             height:'100vh',
@@ -13,13 +12,13 @@ const About = () =>{
           }}
             >
             
-            <h1>About Page</h1>
+            <h1 className='page-header'> About Me</h1>
             <p style={{
                 padding:'0 15%',
                 
                 
             }}>
-            &nbsp; &nbsp; &nbsp; Graduating from UC Irvine in 2013 I originally started my career path as a data analyst. 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Graduating from UC Irvine in 2013 I originally started my career path as a data analyst. 
             Entering my fourth year however, I was introduced to cryptocurrency and that led me down the 
             proverbial rabbit hole of decentralized finance. It was a difficult decision but without looking 
             back I left that job and took on a full-time analyst position providing market analysis on 

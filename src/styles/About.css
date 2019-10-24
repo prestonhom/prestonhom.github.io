@@ -1,0 +1,9 @@
+*{
+    color:white;
+}
+
+.page-header{
+    margin:0 20%;
+    color: white;
+    text-shadow: pink 0px 1px;
+}

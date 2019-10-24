@@ -22,9 +22,10 @@
 }
 
 .navIcons{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     fill:white;
+    padding:0 6px;
 }
 .navWords {
     display: none;
@@ -41,12 +42,11 @@
 
 
 .navIcons:hover + .navWords{
-    display:inline;
+    display:block;
     text-decoration: none;
-    font-size: 40px;
-    margin:0 20px;
-    -webkit-animation: arrowInOut 4s linear forwards;
-    animation: arrowInOut 4s linear forwards;
+    font-size: 25px;
+    -webkit-animation: arrowInOut 5.5s linear forwards;
+    animation: arrowInOut 5.5s linear forwards;
     color:yellow;
     text-shadow:white 0px 0px 2px;
    }

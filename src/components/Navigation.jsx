@@ -2,6 +2,7 @@ import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import wallpaper from '../../public/images/blockchainwallpaper.jpg' 
+import background from '../../public/images/futuristicwallpaper.jpg'
 import home from '../../public/images/home.svg' 
 import flask from '../../public/images/flask.svg' 
 import letter from '../../public/images/letter.svg' 
@@ -12,16 +13,13 @@ const Navigation=()=>{
     return(
         <div>   
             <Navbar className='navBar'style={{
-                backgroundImage:`url(${wallpaper})`,
+                backgroundImage:`url(${background})`,
                 position:'fixed',
-                padding:'0 4%'
+                padding:'0 3%'
             }} expand="lg">
 
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{
-            backgroundColor:`pink`,
-            cursor:`pointer`,
-        }} /> */}
-        <Navbar.Collapse style={{    
+    
+        <Navbar.Collapse style={{  
         }}>     
                 <Nav className="NavContent" style={{
                     display:'flex',
@@ -44,6 +42,12 @@ const Navigation=()=>{
                     <br></br>
                     <span style={{fontSize:'180%', color:'pink',textShadow:'pink 0px 0px 10px'}}> {'}'} </span> 
                     </h1>
+                    <div style={{
+                        display:'flex',
+                        flexDirection:'row',
+                        marginTop:'10%'
+                
+                    }}>
                     <Nav.Link
                     className='navLinks'
                     href='/'
@@ -86,6 +90,7 @@ const Navigation=()=>{
                         <img className='navIcons' src={letter} alt='letter' ></img>
                         <h1 className='navWords'>Contact</h1>
                     </Nav.Link>
+                    </div>
                 </Nav>
         </Navbar.Collapse>
     </Navbar>
