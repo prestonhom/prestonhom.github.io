@@ -6,6 +6,8 @@ import { Route, Switch, Link } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Projects from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home'
+import Contact from './components/Contact'
 
 
 class App extends Component {
@@ -22,8 +24,7 @@ class App extends Component {
             <Route exact path='/' render={() => {
               return (
                 <div>
-
-                  <h1>Home Page</h1>
+                <Home/>
                 </div>
               )
             }} />
@@ -44,6 +45,15 @@ class App extends Component {
                 <div>
                   <Navigation />
                   <Projects
+                  />
+                </div>
+              )
+            }} />
+            <Route exact path='/Contact' render={() => {
+              return (
+                <div>
+                  
+                  <Contact
                   />
                 </div>
               )

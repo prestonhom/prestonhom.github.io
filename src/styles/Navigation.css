@@ -1,20 +1,20 @@
 @keyframes panning {
     0% {
-      background-position: 0% 0%;
+        background-position: 0% 0%;
     }
     25% {
-      background-position: 100% 100%;
+        background-position: 100% 100%;
     }
-     50% {
-      background-position: 100% 0%;
+    50% {
+        background-position: 100% 0%;
     }
     75% {
-      background-position: 0 100%;
+        background-position: 0 100%;
     }
     200% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
-  }
+}
 
 .navBar {
     position: relative;
@@ -39,8 +39,6 @@
     cursor:pointer;
     
 }
-
-
 .navIcons:hover + .navWords{
     display:block;
     text-decoration: none;
@@ -49,17 +47,22 @@
     animation: arrowInOut 5.5s linear forwards;
     color:yellow;
     text-shadow:white 0px 0px 2px;
-   }
-   
-   @-webkit-keyframes arrowInOut {
+}
+
+@-webkit-keyframes arrowInOut {
     0%,100% {opacity: 0;}
     30%, 80% {opacity: 1;}
-   }
-   @keyframes arrowInOut {
+}
+@keyframes arrowInOut {
     0%,100% {opacity: 0;}
     30%, 80% {opacity: 1;}
     }
 
 .navLinks{
     text-decoration: underline pink;
+}
+
+.githubLogo{
+    width:30px;
+    height:30px;
 }
