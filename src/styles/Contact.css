@@ -1,9 +1,10 @@
 .cardHeader{
     background-color:rgba(130, 26, 142,0.2);
-
     text-align:center;
 }
-
+.cardHeader:hover{
+    background-color:grey;
+}
 .cardCard{
     width:70%;
     height:100%;
@@ -16,3 +17,4 @@
     width:200px;
     height:50px;
 }
+

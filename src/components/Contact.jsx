@@ -46,7 +46,7 @@ const Contact = () => {
                     <Card className='cardCard'>
                         <Card.Header className='cardHeader'>
                             <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                                <a href="mailto:preston.hom@gmail.com"><img className='cardImage' style={{width:'400px'}}src="../../images/gmailwordlogo.svg"/></a>
+                                <a href="mailto:preston.hom@gmail.com"><img className='cardImage' style={{width:'400px'}} src="../../images/gmailwordlogo.svg"/></a>
                             </Accordion.Toggle>
                         </Card.Header>
                         
