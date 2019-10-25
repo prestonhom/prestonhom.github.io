@@ -28,19 +28,16 @@ class App extends Component {
                 </div>
               )
             }} />
-            <Route exact path='/about' render={() => {
+            <Route path='/about' render={() => {
               return (
-                <div style={{
-
-                }}>
+                <div>
                   <Navigation />
                   <About
-
                   />
                 </div>
               )
             }} />
-            <Route exact path='/projects' render={() => {
+            <Route path='/projects' render={() => {
               return (
                 <div>
                   <Navigation />
@@ -49,7 +46,7 @@ class App extends Component {
                 </div>
               )
             }} />
-            <Route exact path='/Contact' render={() => {
+            <Route path='/Contact' render={() => {
               return (
                 <div>
                   
