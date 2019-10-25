@@ -22,7 +22,9 @@ const Projects = () => {
                             src="../../images/dotascreenshot.png"
                             alt="First slide"
                         />
-                        <p>Github <a href='https://github.com/prestonhom/DotaGame'> <img className='githubLogo' src='../../images/githublogo.svg'/> </a> </p>
+                        <p>Links <a href='https://github.com/prestonhom/DotaGame'> <img className='githubLogo' src='../../images/githublogo.svg'/> </a> 
+                        <a href='https://prestonhom.github.io/DotaGame/'>  <img className='linkLogo' src='../../images/chain-links.svg'/> </a>
+                        </p>
                         <p className='paragraphHeadline' style={{ color: 'grey', fontStyle: 'italic' }}>Dota2Fighting is a turn based game where the objective of the game is to outlast the computer and have more health points remaining.</p>
                         <ol>
                             <li>The user can select either Physical Attack for a consistent 800 damage to Roshan
@@ -47,6 +49,7 @@ const Projects = () => {
                         <div className='projectLinks' style={{display:'flex'}}>
                         <p>Links<a href='https://github.com/prestonhom/capx'> <img className='githubLogo' src='../../images/githublogo.svg' /> </a></p>
                         <a href='https://capxexchange.herokuapp.com'>  <img className='linkLogo' src='../../images/chain-links.svg'/> </a> 
+            
                         </div>
                         <p className='projectParagraphs' style={{ color: 'grey', fontStyle:'italic'}}>CAPX is an exchange for users to create/read/update/delete orders as well as fill a counterparty's.</p>
                         <p>
