@@ -1,6 +1,5 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
-
 import wallpaper from '../../public/images/blockchainwallpaper.jpg' 
 import background from '../../public/images/futuristicwallpaper.jpg'
 import home from '../../public/images/home.svg' 
