@@ -61,7 +61,7 @@ const Navigation=()=>{
                     </Nav.Link>
                     <Nav.Link
                     className='navLinks'
-                    href='/about'
+                    href='#/about'
                     style={{
                         margin:'8% 0 0 3%'
                     }}
@@ -71,7 +71,7 @@ const Navigation=()=>{
                     </Nav.Link>
                     <Nav.Link
                     className='navLinks'
-                    href='/projects'
+                    href='#/projects'
                     style={{
                         margin:'8% 0 0 3%'
                     }}
@@ -82,7 +82,7 @@ const Navigation=()=>{
                     
                     <Nav.Link
                     className='navLinks'
-                    href='/contact'
+                    href='#/contact'
                     style={{
                         margin:'8% 0 0 3%'
                     }}
